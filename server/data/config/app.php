@@ -164,6 +164,9 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+        /* 登录验证Token服务提供者 */
+        App\Providers\LoginTokenServices::class
+
         /*
          * Package Service Providers...
          */
